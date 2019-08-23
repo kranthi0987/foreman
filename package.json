@@ -102,7 +102,7 @@
     "redux-thunk": "^2.2.0",
     "reselect": "^3.0.1",
     "seamless-immutable": "^7.1.2",
-    "select2": "~3.5.2-browserify",
+    "select2": "~4.0.8",
     "unidiff": "0.0.4",
     "urijs": "^1.18.10",
     "uuid": "^3.0.1"
