@@ -1,0 +1,56 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - lodash:
+        patched: '2020-05-01T07:45:05.197Z'
+    - patternfly-react > lodash:
+        patched: '2020-05-01T07:45:05.197Z'
+    - redux > lodash:
+        patched: '2020-05-01T07:45:05.197Z'
+    - redux-form > lodash:
+        patched: '2020-05-01T07:45:05.197Z'
+    - patternfly-react > react-bootstrap-typeahead > lodash:
+        patched: '2020-05-01T07:45:05.197Z'
+    - react-ellipsis-with-tooltip > semantic-release > lodash:
+        patched: '2020-05-01T07:45:05.197Z'
+    - react-ellipsis-with-tooltip > cz-conventional-changelog > @commitlint/load > lodash:
+        patched: '2020-05-01T07:45:05.197Z'
+    - react-ellipsis-with-tooltip > cz-conventional-changelog > commitizen > lodash:
+        patched: '2020-05-01T07:45:05.197Z'
+    - react-ellipsis-with-tooltip > semantic-release > @semantic-release/release-notes-generator > lodash:
+        patched: '2020-05-01T07:45:05.197Z'
+    - patternfly-react > react-ellipsis-with-tooltip > semantic-release > lodash:
+        patched: '2020-05-01T07:45:05.197Z'
+    - react-ellipsis-with-tooltip > cz-conventional-changelog > @commitlint/load > @commitlint/resolve-extends > lodash:
+        patched: '2020-05-01T07:45:05.197Z'
+    - patternfly-react > react-ellipsis-with-tooltip > cz-conventional-changelog > @commitlint/load > lodash:
+        patched: '2020-05-01T07:45:05.197Z'
+    - react-ellipsis-with-tooltip > cz-conventional-changelog > commitizen > inquirer > lodash:
+        patched: '2020-05-01T07:45:05.197Z'
+    - patternfly-react > react-ellipsis-with-tooltip > cz-conventional-changelog > commitizen > lodash:
+        patched: '2020-05-01T07:45:05.197Z'
+    - react-ellipsis-with-tooltip > semantic-release > @semantic-release/release-notes-generator > conventional-commits-parser > lodash:
+        patched: '2020-05-01T07:45:05.197Z'
+    - patternfly-react > react-ellipsis-with-tooltip > semantic-release > @semantic-release/release-notes-generator > lodash:
+        patched: '2020-05-01T07:45:05.197Z'
+    - react-ellipsis-with-tooltip > semantic-release > @semantic-release/release-notes-generator > conventional-changelog-writer > lodash:
+        patched: '2020-05-01T07:45:05.197Z'
+    - patternfly-react > react-ellipsis-with-tooltip > cz-conventional-changelog > @commitlint/load > @commitlint/resolve-extends > lodash:
+        patched: '2020-05-01T07:45:05.197Z'
+    - react-ellipsis-with-tooltip > cz-conventional-changelog > commitizen > cz-conventional-changelog > @commitlint/load > lodash:
+        patched: '2020-05-01T07:45:05.197Z'
+    - patternfly-react > react-ellipsis-with-tooltip > cz-conventional-changelog > commitizen > inquirer > lodash:
+        patched: '2020-05-01T07:45:05.197Z'
+    - patternfly-react > react-ellipsis-with-tooltip > semantic-release > @semantic-release/release-notes-generator > conventional-commits-parser > lodash:
+        patched: '2020-05-01T07:45:05.197Z'
+    - patternfly-react > react-ellipsis-with-tooltip > semantic-release > @semantic-release/release-notes-generator > conventional-changelog-writer > lodash:
+        patched: '2020-05-01T07:45:05.197Z'
+    - react-ellipsis-with-tooltip > cz-conventional-changelog > commitizen > cz-conventional-changelog > @commitlint/load > @commitlint/resolve-extends > lodash:
+        patched: '2020-05-01T07:45:05.197Z'
+    - patternfly-react > react-ellipsis-with-tooltip > cz-conventional-changelog > commitizen > cz-conventional-changelog > @commitlint/load > lodash:
+        patched: '2020-05-01T07:45:05.197Z'
+    - patternfly-react > react-ellipsis-with-tooltip > cz-conventional-changelog > commitizen > cz-conventional-changelog > @commitlint/load > @commitlint/resolve-extends > lodash:
+        patched: '2020-05-01T07:45:05.197Z'
