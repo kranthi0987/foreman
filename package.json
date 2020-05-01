@@ -74,7 +74,7 @@
     "ipaddr.js": "~1.2.0",
     "isomorphic-fetch": "^2.2.1",
     "jed": "^1.1.1",
-    "jquery": "~2.2.4",
+    "jquery": "~3.5.0",
     "jquery-flot": "~0.8.3",
     "jquery-ujs": "~1.2.0",
     "jquery.cookie": "~1.4.1",
@@ -105,7 +105,8 @@
     "select2": "~3.5.2-browserify",
     "unidiff": "0.0.4",
     "urijs": "^1.18.10",
-    "uuid": "^3.0.1"
+    "uuid": "^3.0.1",
+    "snyk": "^1.316.1"
   },
   "scripts": {
     "lint": "./node_modules/.bin/eslint -c .eslintrc webpack/ script/",
@@ -118,7 +119,9 @@
     "build-storybook": "build-storybook",
     "deploy-storybook": "storybook-to-ghpages",
     "postinstall": "node ./script/npm_install_plugins.js",
-    "analyze": "./script/webpack-analyze"
+    "analyze": "./script/webpack-analyze",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "jest": {
     "automock": true,
@@ -160,5 +163,6 @@
       "jest-prop-type-error",
       "./webpack/test_setup.js"
     ]
-  }
+  },
+  "snyk": true
 }
